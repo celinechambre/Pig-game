@@ -8,14 +8,11 @@
 
 html {
   font-size: 62.5%;
-  box-sizing: border-box;
 }
 
 body {
   font-family: 'Nunito', sans-serif;
-  font-weight: 400;
   height: 100vh;
-  color: #333;
   background-color: #bf2e34;
   display: flex;
   align-items: center;
@@ -47,13 +44,7 @@ main {
 
 /* ELEMENTS */
 .name {
-  position: relative;
   font-size: 4rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 2px;
-  font-weight: 300;
-  margin-bottom: 1rem;
 }
 
 .score {
